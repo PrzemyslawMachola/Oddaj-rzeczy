@@ -1,0 +1,13 @@
+@import "../settings/_colors";
+
+.user__nav {
+    margin: 10px 0;
+}
+
+.userNavButton {
+    color: $color-text;
+    padding: 5px 10px;
+}
+.userNavButton:hover {
+    border: 1px solid $color-accent;
+}
