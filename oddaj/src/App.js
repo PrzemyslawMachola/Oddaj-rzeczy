@@ -6,7 +6,6 @@ import Home from "./components/home"
 export const AppContext = createContext(null);
 
 const Login = () => <p>Login</p>;
-
 const Register = () => <p>Register</p>
 
 const App = () => {

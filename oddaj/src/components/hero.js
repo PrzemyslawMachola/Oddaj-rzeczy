@@ -3,10 +3,12 @@ import UserNav from "./userNav";
 import MainNav from "./mainNav";
 import heroImage from "../assets/Home-Hero-Image.jpg";
 import decoration from "../assets/Decoration.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero" id="hero">
             <img className="hero__photo" src={heroImage} alt=""></img>
             <div className="hero__content">
                 <UserNav />
@@ -20,6 +22,14 @@ const Hero = () => {
                         <button className="hero__button">ZORGANIZUJ<br></br>ZBIÓRKĘ</button>
                     </div>
                 </div>
+                <Link className="toTop" 
+                to="hero"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                >top</Link>
             </div>
         </div>
     )

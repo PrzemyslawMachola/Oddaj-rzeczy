@@ -1,8 +1,9 @@
 import React from "react";
+import "../scss/elements/who.scss";
 
 const Who = () => {
     return (
-        <div>komu pomagamy</div>
+        <div className="who" id="who">komu pomagamy</div>
     )
 }
 
