@@ -2,10 +2,11 @@ import './scss/App.scss';
 import React, {createContext, useState} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home"
+import Login from './components/login';
 
 export const AppContext = createContext(null);
 
-const Login = () => <p>Login</p>;
+
 const Register = () => <p>Register</p>
 
 const App = () => {

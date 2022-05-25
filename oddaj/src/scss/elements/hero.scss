@@ -18,30 +18,13 @@
   padding: 10px;
 }
 
-.hero__box {
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  align-items: center;
-  justify-content: center;
-  height: 70%;
-  gap: 20px;
-}
-
-.hero__buttons {
-  display: flex;
-  padding: 0;
-  gap: 20px;
-}
-
-.hero__button {
-  font-weight: 300;
-  width: 200px;
-  font-size: 1.75rem;
-}
-
 .toTop {
   position: fixed;
+  width: 25px;
+  height: 25px;
   right: 50px;
   bottom: 50px;
+  border-top: 4px double $color-text;
+  border-right: 4px double $color-text;
+  transform: rotate(-45deg);
 }

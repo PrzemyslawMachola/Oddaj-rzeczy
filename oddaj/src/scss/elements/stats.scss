@@ -1,3 +1,33 @@
+@import "../settings/_colors";
+
+
 .stats {
-    height: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-accent;
+}
+
+.stats__box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stats__value {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.stats__title {
+    font-size: 0.9rem;
+}
+
+.stats__description {
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1.5;
 }

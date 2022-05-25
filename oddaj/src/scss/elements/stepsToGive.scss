@@ -1,3 +1,59 @@
+@import "../settings/_colors";
+
 .steps {
     height: 600px;
 }
+
+.steps__title {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.stepsDecoration {
+    width: 200px;
+}
+
+.fourSteps {
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-main;
+    height: 200px;
+}
+
+.steps__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 130px;
+    font-size: 0.8rem;
+}
+
+.steps__img {
+    height: 80px;
+}
+
+.steps__text {
+    text-align: center;
+}
+
+.steps__buttons {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__button {
+    font-weight: 300;
+    width: 200px;
+    font-size: 1.75rem;
+    text-align: center;
+    border: 1px solid $color-text;
+    padding: 10px;
+    color: $color-text;
+  }

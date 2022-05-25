@@ -1,0 +1,28 @@
+@import "../settings/_colors";
+
+.hero__box {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    gap: 20px;
+  }
+  
+  .hero__buttons {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .hero__button {
+    font-weight: 300;
+    width: 200px;
+    font-size: 1.75rem;
+    text-align: center;
+    border: 1px solid $color-text;
+    padding: 10px;
+    color: $color-text;
+  }
+  
