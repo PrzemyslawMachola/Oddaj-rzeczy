@@ -18,7 +18,7 @@ const Steps = () => {
             </div>
             <div className="fourSteps">
                 <div className="steps__box">
-                    <img className="steps__img" src={step1}></img>
+                    <img className="steps__img" alt="t-shirt" src={step1}></img>
                     <span className="steps__text">
                         Wybierz rzeczy<br></br>
                         -------<br></br>
@@ -27,7 +27,7 @@ const Steps = () => {
                     </span>
                 </div>
                 <div className="steps__box">
-                    <img className="steps__img" src={step2}></img>
+                    <img className="steps__img" alt="bag" src={step2}></img>
                     <span className="steps__text">
                         Spakuj je<br></br>
                         -------<br></br>
@@ -36,7 +36,7 @@ const Steps = () => {
                     </span>
                 </div>
                 <div className="steps__box">
-                    <img className="steps__img" src={step3}></img>
+                    <img className="steps__img" alt="search" src={step3}></img>
                     <span className="steps__text">
                         Zdecyduj komu<br></br>
                         chcesz pomóc<br></br>
@@ -46,7 +46,7 @@ const Steps = () => {
                     </span>
                 </div>
                 <div className="steps__box">
-                    <img className="steps__img" src={step4}></img>
+                    <img className="steps__img" alt="arrows" src={step4}></img>
                     <span className="steps__text">
                         Zamów kuriera<br></br>
                         -------<br></br>

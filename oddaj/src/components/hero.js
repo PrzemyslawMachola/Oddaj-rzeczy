@@ -3,7 +3,8 @@ import UserNav from "./userNav";
 import MainNav from "./mainNav";
 import HeroContent from "./heroContent";
 import heroImage from "../assets/Home-Hero-Image.jpg";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom'
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
                 <UserNav />
                 <MainNav />
                 <HeroContent />
-                <Link   
+                <ScrollLink   
                     className="toTop" 
                     to="hero"
                     activeClass="active"
@@ -22,7 +23,7 @@ const Hero = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                ></Link>
+                ></ScrollLink>
             </div>
         </div>
     )
