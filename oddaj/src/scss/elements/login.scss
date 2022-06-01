@@ -1,0 +1,53 @@
+@import "../settings/_colors";
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__title {
+    font-size: 2rem;
+    margin-top: 150px;
+}
+
+.decoration {
+    width: 200px;
+    padding: 20px;
+}
+
+.login__form {
+    background-color: $color-main;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login__label {
+    font-size: 0.9rem;
+}
+
+.login__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $color-text;
+}
+
+.login__buttons {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.login__button {
+    color: $color-text;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.login__button:hover {
+    border: 1px solid $color-text;
+}

@@ -16,10 +16,13 @@ const Login = () => {
             <form className="login__form">
                 <label className="login__label">Email<input className="login__input"></input></label>
                 <label className="login__label">Hasło<input className="login__input"></input></label>
+                <label className="login__label">Powtórz hasło<input className="login__input"></input></label>
+
             </form>
             <div className="login__buttons">
-                <Link className="userNavButton" to="/register">Załóż konto</Link>
-                <button className="login__button">Zaloguj się</button>
+                <Link className="userNavButton" to="/login">Zaloguj</Link>
+                <button className="login__button">Zalóż konto</button>
+             
             </div>
         </div>
     )

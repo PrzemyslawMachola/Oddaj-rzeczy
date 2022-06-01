@@ -1,3 +1,28 @@
 .contact {
     height: 600px;
+    background-image: url(../../assets/Background-Contact-Form.jpg);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 100px;
+}
+
+.contact__form__title {
+    font-size: 2rem;
+}
+
+.user__data {
+    display: flex;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
 }

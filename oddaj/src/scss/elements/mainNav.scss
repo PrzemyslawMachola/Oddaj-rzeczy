@@ -5,6 +5,7 @@
     justify-content: flex-end;
     margin: 10px 0;
     font-size: 1.2rem;
+    width: 100%;
 }
 
 .mainNavButton {
@@ -15,4 +16,15 @@
 }
 .mainNavButton:hover {
     border: 1px solid $color-text;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__label {
+    display: flex;
+    flex-direction: column;
 }
